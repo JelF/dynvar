@@ -1,0 +1,7 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - bin/*
+Style/Documentation:
+  # Using yard to check it
+  Enabled: false
