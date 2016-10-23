@@ -3,7 +3,7 @@
 DynVar provides dynamic variables for ruby language.
 
 Usage example:
-``lang=ruby
+```lang=ruby
   Context = DynVar.initialize({})
   Context.set(locale: :ru) do
   puts "Your locale is #{Context.get[:locale]}!"
